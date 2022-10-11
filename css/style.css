@@ -60,6 +60,7 @@ section{
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -118,7 +119,98 @@ section{
 }
 .card-bg-white{
     background-color: white;
+    padding: 20px;
 }
+.btn-violet{
+    background-color: var(--primary-color);
+    color: var(--footer-color);
+    width: 30px;
+    aspect-ratio: 1/1;
+    padding: unset;
+}
+.proportions > *{
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.pb{
+    padding-bottom: 40px;
+}
+.color-white{
+    color: white;
+}
+.italic-description{
+    font-style: italic;
+    color: black;
+    font-weight: 200;
+}
+.img-planning{
+    padding-bottom: 30px;
+}
+.light-weight{
+    font-weight: 200;
+    color: var(--secondary-light-text-color);
+}
+.color-violet{
+    color: var(--primary-color);
+}
+.testimonial-img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.testimonial-img img{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+.testimonial-img .no-margin{
+    width: auto;
+    height: 100%;
+    margin: 0;
+}
+.big-icons{
+    font-size: x-large;
+}
+.big-font{
+    font-size: 30px;
+}
+
 .benefits-text{
     text-align: left;
+    color: var(--primary-color);
+}
+.benefits-text > h2{
+    font-size: 30px;
+}
+.btn-more{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 30px;
+}
+.pr-50px{
+    padding-right: 50px;
+}
+h1{
+    color: var(--big-text-color);
+    font-size: 40px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.big-btn{
+    background-color: white;
+    color: var(--primary-color);
+    padding: 10px 30px;
+}
+
+footer{
+    padding: 40px 0;
+    background-color: var(--footer-color);
+    color: var(--light-text-color);
+}
+.card-footer{
+    padding: 0 40px;
+}
+small > a{
+    color: white;
 }

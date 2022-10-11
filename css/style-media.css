@@ -9,6 +9,10 @@
         display: flex;
         flex-wrap: wrap;
     }
+    
+    .fix{
+        display: flex;
+    }
     .col-md-1-2{
         flex-basis: 50%;
     }
@@ -49,6 +53,13 @@
     nav{
         display: flex;
     }
+    .flex{
+        flex-wrap: nowrap;
+    }
+    .fix{
+        display: flex;
+        justify-content: center;
+    }
     ul{
         padding: 10px;
         display: block;
@@ -63,6 +74,14 @@
     li > a {
         text-decoration: none;
         color: white;
+    }
+    .col-planning{
+        text-align: left;
+        padding-right: 80px;
+        margin-top: 40px;
+    }
+    .col-planning-2{
+        margin-top: 100px;
     }
     .col-lg-1-2{
         flex-basis: 50%;
