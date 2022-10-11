@@ -2,7 +2,8 @@
     --primary-color: #9792E4;
     --secondary-color: #0084FD;
     --secondary-light-color: #B5DDFF;
-    --light-text-color: #B5DDFF;
+    --secondary-light-text-color: #647B8E;
+    --light-text-color: #C4C4C4;
     --big-text-color: #FDC15F;
     --footer-color: #333333;
 }
@@ -21,8 +22,8 @@ html{
     font-size: 12px;
 }
 img{
-    display: block;
     width: 100%;
+    display: block;
 }
 .container{
     width: 100%;
@@ -41,17 +42,10 @@ nav{
 ul{
     display: none;
 }
-.card-blue{
-    background-color: var(--secondary-light-color);
-    border-radius: 20px;
-}
-bg-violet{
-    background-color: var(--primary-color);
-}
 button{
     border: none;
     border-radius: 20px;
-    padding: 10px 10px;
+    padding: 10px;
 }
 .btn-white{
     background-color: white;
@@ -61,4 +55,70 @@ button{
     font-size: xx-large;
     color: white;
 }
+section{
+    padding: 40px 0;
+}
+.flex{
+    display: flex;
+}
 
+.card{
+    border-radius: 20px;
+    padding: 20px;
+}
+.card-blue{
+    background-color: var(--secondary-light-color);
+    height: 100%;
+}
+.text-card-blue{
+    text-align: left;
+    color: var(--secondary-light-text-color);
+}
+.btn-blue{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 7px 30px;
+}
+.text-card-blue > h3{
+    color: var(--secondary-color);
+}
+.text-card-blue > *{
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.lh-mb-text{
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.img-position{
+    display: flex;
+    align-items: flex-end;
+}
+.phone-img{
+    position: relative;
+    bottom: -20px;
+}
+.text-center{
+    text-align: center;
+}
+.card-icons{
+    font-size: -webkit-xxx-large;
+    color: var(--secondary-color);
+}
+
+.row > * {
+    flex-grow: 1;
+    flex-basis: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+}
+.bg-violet{
+    background-color: var(--primary-color);
+}
+.card-bg-white{
+    background-color: white;
+}
+.benefits-text{
+    text-align: left;
+}
