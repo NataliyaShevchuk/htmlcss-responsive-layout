@@ -8,11 +8,57 @@
 }
 
 *{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
 }
+
+html{
+    font-size: 12px;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+header{
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+ul{
+    display: none;
+}
+.card-blue{
+    background-color: var(--secondary-light-color);
+    border-radius: 20px;
+}
+bg-violet{
+    background-color: var(--primary-color);
+}
+button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.btn-white{
+    background-color: white;
+    color: black;
+}
+.burger-menu{
+    font-size: xx-large;
+    color: white;
+}
+
