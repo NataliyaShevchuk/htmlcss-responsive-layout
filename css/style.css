@@ -153,16 +153,12 @@ section{
 .color-violet{
     color: var(--primary-color);
 }
-.testimonial-img{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-}
+
 .testimonial-img img{
-    width: auto;
-    height: 100%;
-    margin-left: -50px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
 }
 .testimonial-img .no-margin{
     width: auto;
@@ -175,7 +171,10 @@ section{
 .big-font{
     font-size: 30px;
 }
-
+.align-left{
+    text-align: left;
+    padding-left: 30px;
+}
 .benefits-text{
     text-align: left;
     color: var(--primary-color);
